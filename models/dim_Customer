@@ -1,0 +1,5 @@
+CREATE TABLE "t1" AS(
+Select * from "Customer")
+;
+select "Customer"."userId", "Customer"."id", "Customer"."title", EXTRACT(YEAR FROM CURRENT_DATE) AS year   
+from "t1"
