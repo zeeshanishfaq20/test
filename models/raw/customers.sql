@@ -1,2 +1,2 @@
 select *
-from "customers"
+from "ECOMM_ANALYTICS_DB"."RAW"."CUSTOMERS"
