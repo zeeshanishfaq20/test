@@ -39,7 +39,9 @@ models:
   my_new_project:
     raw: 
       +materialized: view
-    transformations:
+    staging:
+      +materialized: table
+    mart:
       +materialized: table
     # Applies to all files under models/example/
     example:
