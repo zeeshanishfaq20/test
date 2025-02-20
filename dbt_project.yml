@@ -38,8 +38,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   jaffle_shop:
     marts:
-      core:
-        +materialized: view
+      +materialized: view
     staging:
-      jaffle_shop:
-        +materialized: table
+      +materialized: table
