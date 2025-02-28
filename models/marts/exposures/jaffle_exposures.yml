@@ -1,0 +1,12 @@
+exposures:
+  - name: customers_data
+    label: customers_data
+    type: notebook
+    maturity: high
+    url: https://tinyurl.com/jaffle-shop-reporting
+    description: 'Exposure for orders data'
+    depends_on:
+      - ref('dim_customers')
+    owner:
+      name: Zeeshan Ishfaq
+      email: data@jaffleshop.com
